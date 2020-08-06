@@ -8,5 +8,6 @@
             "email": "vchslvartemenkov@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
     "require": {}
 }
