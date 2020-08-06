@@ -9,5 +9,11 @@
         }
     ],
     "minimum-stability": "stable",
+    "autoload": {
+	"psr-4": {
+	    "Aslava12\\ColorCLI\\": "src/"
+	}
+    },
     "require": {}
+
 }

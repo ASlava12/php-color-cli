@@ -3,9 +3,9 @@
 
   require_once(__DIR__ . "/src/Format.php");
 
-//  use Aslava12\ColorCLI;
+  use Aslava12\ColorCLI\Format;
 
-  $fm = new \Aslava12\ColorCLI\Format();
+  $fm = new Format();
 
   echo $fm->to([
             $fm->color->bgRed,
