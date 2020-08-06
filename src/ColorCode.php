@@ -1,6 +1,6 @@
 <?php
 
-namespace format\color;
+namespace Aslava12\ColorCLI;
 
   /**
    * цвета для текста и фона

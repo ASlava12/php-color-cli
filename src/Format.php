@@ -1,9 +1,11 @@
 <?php
 
-namespace format;
+namespace Aslava12\ColorCLI;
 
 require_once(__DIR__ . "/ColorCode.php");
 require_once(__DIR__ . "/StyleCode.php");
+
+use \Aslava12\ColorCLI;
 
 /**
  *
@@ -14,8 +16,8 @@ class Format
   public $style;
 
   public function __construct() {
-    $this->color = new \format\color\ColorCode();
-    $this->style = new \format\style\StyleCode();
+    $this->color = new ColorCode();
+    $this->style = new StyleCode();
   }
 
   public function to(array $codes) {

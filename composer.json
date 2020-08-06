@@ -1,0 +1,12 @@
+{
+    "name": "aslava12/php-color-cli",
+    "description": "script for coloring bash output in color",
+    "type": "library",
+    "authors": [
+        {
+            "name": "V. Artemenkov",
+            "email": "vchslvartemenkov@gmail.com"
+        }
+    ],
+    "require": {}
+}

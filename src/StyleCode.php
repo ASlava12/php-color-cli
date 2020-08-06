@@ -1,6 +1,6 @@
 <?php
 
-namespace format\style;
+namespace Aslava12\ColorCLI;
 
 /**
  * Коды стилей
